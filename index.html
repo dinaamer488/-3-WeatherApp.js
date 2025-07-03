@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+        <!-- <circle cx="25" cy="25" r="20" stroke="black" stroke-width="3" fill="yellow" /> -->
+    </svg>
+
+</head>
+
+<body>
+    <div id="loadingSpinner" class="spinner"></div>
+
+    <div class="container">
+
+            <div class="header">
+               <div class="header-icons">
+               <img src="assats/Group 47.svg"  class="i">
+                <h1>Weather App</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="cityInput" placeholder="Search for cities">
+                <i class="fi fi-br-search"></i>
+                <button id="getweather">
+                <span class="button-icon">°F</span>°C
+                </button>
+             </div>
+        </div>
+             <div class="weather-info">
+                <div class="left">
+                 <div class="date">
+                    <span id="daynum"></span>
+                    <span id="month"></span>
+                    <span id="day"></span>
+                </div>
+                <h2 id="cityName"></h2>
+                <h1 id="temperature"></h1>
+            </div>
+            <div class="right">
+                <img id="weatherIcon" src="" alt="">
+               
+            </div>
+          </div>
+
+          <div id="hourlyForecast" class="hours" >  </div>
+
+
+      
+      <aside id="dailyForecast" class="days">
+            <ul id="daysforecast" class="ul"></ul>
+        </aside>
+<div id="weatherDetails">
+   
+</div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
