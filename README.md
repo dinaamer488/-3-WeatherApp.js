@@ -45,4 +45,4 @@ Dina Amer — https://github.com/dinaamer488
 
 License
 
-This project is open‑source; feel free to use and modify as you like.
+This project is open‑source; feel free to use and modify as you like..
